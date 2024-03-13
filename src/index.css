@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins&display=swap')
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+span, 
+.primary-color {
+  background-image: linear-gradient(to right, #000000, #ffffff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bg-primary-color {
+  background-image: linear-gradient(to right, #000000, #ffffff);
+}
+a {
+  text-decoration: none;
+}
+.text-small {
+  font-size: 10px;
+}
+
+
+
